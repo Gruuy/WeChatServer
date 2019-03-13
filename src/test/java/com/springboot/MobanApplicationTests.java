@@ -10,6 +10,7 @@ import redis.clients.jedis.JedisPool;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MobanApplicationTests {
+    //自动注入返回值为JedisPool的对象
     @Autowired
     JedisPool jedisPool;
     @Test
