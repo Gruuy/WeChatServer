@@ -63,11 +63,11 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!-- 添加 c3p0 数据源 -->
+        <!-- Jedis -->
         <dependency>
-            <groupId>c3p0</groupId>
-            <artifactId>c3p0</artifactId>
-            <version>0.9.1.2</version>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
         </dependency>
     </dependencies>
 
