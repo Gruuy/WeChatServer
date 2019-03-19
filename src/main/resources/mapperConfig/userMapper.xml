@@ -6,4 +6,7 @@
     <select id="getUser" resultType="com.springboot.Model.User" parameterType="integer">
         select * from user where id=${value}
     </select>
+    <select id="getAllUser" resultType="com.springboot.Model.User">
+        select * from user
+    </select>
 </mapper>
