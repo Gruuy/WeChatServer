@@ -27,7 +27,7 @@ public class MobanApplicationTests {
     public void testPageHelper() {
         PageHelper.startPage(1,1);
         List<User> list=userMapper.getAllUser();
-        PageInfo<User> page=new PageInfo<User>(list);
+        PageInfo<User> page=new PageInfo<>(list);
         System.out.println(page.getList().get(0).getId());
         System.out.println(page.getList().get(0).getUsername());
         System.out.println(page.getList().get(0).getPassword());

@@ -27,6 +27,6 @@ mybatis:
   mapper-locations: classpath:mapperConfig/*.xml  #设置mapper文件路径
 
 #设置pagehelper
-#pagehelper:
-#  dialect: mysql  #数据库类型
-#  reasonable: true  #超出界限自动修正
+pagehelper:
+  #数据库类型dialect: Mysql  4之后不用设置，会自行监测
+  reasonable: true  #超出界限自动修正

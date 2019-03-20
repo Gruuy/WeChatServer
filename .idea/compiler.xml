@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="moban" />
+        <module name="WeChatServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="moban" target="1.8" />
+      <module name="WeChatServer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="moban" options="-parameters" />
+      <module name="WeChatServer" options="-parameters" />
     </option>
   </component>
 </project>
